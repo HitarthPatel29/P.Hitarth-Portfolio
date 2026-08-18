@@ -1,0 +1,54 @@
+PROFESSIONAL SUMMARY
+Software Developer with 18+ months of hands-on experience building scalable backend systems across deployed applications, freelance product work, applied research, and a professional internship. Expert proficiency in Java 17, Spring Boot 3.5 and Hibernate/JPA with microservice as well as monolithic architecture. Skilled in writing clean, maintainable, well-documented code, with hands-on exposure to applied machine learning (Naive Bayes classification, self-training feedback loops). Comfortable in Agile/Scrum environments with remote, collaborative teams � experienced in code review, technical documentation, and version-controlled workflows. Microsoft Azure Certified. Honors graduate with an 86.7% GPA.
+TECHNICAL SKILLS
+Core & Languages: 	Java, Python, JavaScript
+Java Ecosystem: 	Spring Boot, Spring Data JPA, Hibernate ORM, Spring MVC, REST API Design, Resilience4j, RestTemplate, WebClient, FeignClient, Apache Kafka, JWT, BCrypt, Spring Security, Spring Validation, Spring JDBC, 
+Architecture:	Monolithic, Microservice
+Frontend: 		React.js, Tailwind CSS
+ML / Data 		SMILE (Naive Bayes), scikit-learn, scikit-image, Keras / TensorFlow, FaceNet
+Databases & DevOps:	MySQL, MongoDB, Microsoft Azure, Git, CI/CD (Jenkins), Docker, Railway
+Methodologies: 		Agile / Scrum, Test-Driven Development, Behavior-Driven Development, Code Review Practices
+Testing:	 		Junit, Mockito, Postman, Selenium
+Soft Skills: 	Problem-Solving, Verbal & Written Communication, Cross-Functional Collaboration, Stakeholder Management, Adaptability, Time Management
+EDUCATION & CERTIFICATIONS
+Advanced Diploma � Computer System Technology |  Mohawk College, Hamilton, ON	Jan 2023 � Dec 2025
+� Honors Graduate  |  GPA: 86.7%
+Microsoft Azure Fundamentals (AZ-900)  � November 2024
+Microsoft Azure AI Fundamentals (AI-900)  �  March 2023
+PROJECTS
+WiselySplit � Full-Stack Financial Web Application  	wiselysplit.xyz | Sep 2025 � Present
+Java 17 � Spring Boot 3.5 � MySQL � React.js � Stripe Connect � Na�ve Bayes � SMILE
+� Architected and shipped a full-stack fintech platform from the ground up � designing 70+ RESTful endpoints with Spring Boot 3.5 and Spring MVC, implementing JWT + BCrypt authentication with role-based access control via Spring Security, and integrating Stripe Connect for peer-to-peer settlements and Google OAuth for SSO.
+� Designed and deployed a machine learning classification pipeline (Naive Bayes, SMILE) to auto-categorize financial transactions in real time, then engineered a self-training feedback loop that retrains the model on user corrections � continuously improving categorization accuracy without manual intervention.
+� Adopted Hibernate/JPA for entity relationship mapping and query optimization across core domain models, transitioning select modules from raw JDBC to ORM-managed persistence to reduce boilerplate and improve data integrity.
+� Maintained the application over 10+ months in a production environment, resolving 100+ bugs and hardening 15+ financial edge cases � including negative balances, failed payment retries, partial settlement states, and split-recalculation on mid-group participant changes � bringing it to real fintech data-accuracy standards.
+� Designed Apple Pay integrations with Apple Automations and Shortcuts to enable one-tap automated expense logging from a mobile device directly into the backend, reducing manual entry friction for end users.
+� Optimized in-app navigation by prefetching nested data to hydrate child views on client-side and eliminating redundant API calls on navigation � reducing per-session API round-trips by an estimated 50�60%.
+� Managed feature development through self-organized Agile-style sprints, maintaining a prioritized backlog and iterating based on continuous feedback.
+� Implemented server-to-server communication using Spring RestTemplate and WebClient for synchronous integrations, and introduced Apache Kafka for asynchronous event-driven messaging between core services, decoupling downstream processing from the request path.
+APPLIED RESEARCH
+Facial Recognition: Impact of Photo Enhancement Algorithms  |  Mohawk College (Hybrid)	Sept 2024 � Dec 2024
+Java 17 � Keras/TensorFlow � OpenCV � FaceNet � Dlib (compiled via CMake)
+� Led a 4-person applied research team commissioned to solve a real archival problem: identifying individuals in low-resolution and dithered ('dot-printed') war memorial photographs using only on-device tools
+� Personally integrated and tested different combination of Image enhancement tools and face recognition models (including finetuning FaceNet on a labeled library of real archival photographs), evaluated against a live test set sourced directly from the war memorial gallery 
+� Owned the team's Git repository end-to-end, ran the team operationally day-to-day � assigning tasks, setting priorities, and leading weekly progress meetings with the supervising Research Professor.
+� Key finding: enhancement algorithms measurably improved recognition on photos with degraded but present facial data � giving the on-device models enough signal to work with � but actively worsened accuracy on photos with little-to-no facial data, where the algorithms amplified noise rather than recovering detail; the research produced clear, evidence-backed guidance on when pre-processing should and should not be applied in archival digitization workflows.
+WORK EXPERIENCE
+Software System Analyst (Freelance)  |  Contribiia � Toronto, ON (Remote)	Jan 2025 � Apr 2025
+� Worked with an early-stage fintech startup building a digital rotating credit system (ROSCA) that lacked the structured requirements needed to move into development � stepping in as the bridge between 2 business stakeholders and 2 UI/UX designers.
+� Translated high-level product ideas into development-ready specifications by defining core features, edge cases, data validation rules, and process dependencies; led design reviews to ensure every screen was engineered-to-spec before handoff.
+� Delivered a complete UI/UX specification package that reduced ambiguity for the engineering team and gave the startup a clear, actionable path from concept to prototype.
+
+Web Developer Intern  |  Glacier Inc. � Gujarat, India	Jun 2022 � Dec 2022
+� Joined a professional React.js development team for a 6-month internship, building and maintaining responsive, cross-device web pages under guidance.
+� Received hands-on mentorship from senior engineers on component structuring, performance optimization, and coding standards, applying feedback iteratively across successive tasks.
+� Took ownership of WordPress theme customization and plugin configuration, independently resolving layout and compatibility issues across multiple site sections.
+� Set up and ran Selenium regression testing via Katalon Recorder, wrote and maintained unit tests, and debugged UI-breaking changes before release, contributing to a more reliable testing workflow for the team.
+� Gained early exposure to real-world development practices including Git version control workflows, ticket-based task management, and cross-team communication with designers and QA.
+
+Customer Service Associate & Baker  |  Tim Hortons � Hamilton, ON	Jan 2023 � Present
+� Collaborating within a team of 10+ to maintain service quality and operational standards during peak hours.
+� Led and Trained 7+ new employees in the Kitchen and guiding them on regular basis.
+HITARTH PATEL
++1 (365) 883-2904  �  p2004hitarth@gmail.com  �  Hamilton, ON
+LinkedIn  �  GitHub  �  wiselysplit.xyz
