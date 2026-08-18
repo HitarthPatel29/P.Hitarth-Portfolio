@@ -3,7 +3,7 @@
 export const profile = {
   name: 'Hitarth Patel',
   eyebrow: 'Software Developer',
-  subhead: 'Full-Stack Development & Backend Systems',
+  subhead: 'Backend Systems & Applied Machine Learning',
   positioning:
     '18+ months building scalable backend systems — Integrated a self-training ML pipeline into production-hardened fintech application.',
   location: 'Hamilton, ON',
