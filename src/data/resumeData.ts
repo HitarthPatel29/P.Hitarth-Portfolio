@@ -3,9 +3,9 @@
 export const profile = {
   name: 'Hitarth Patel',
   eyebrow: 'Software Developer',
-  subhead: 'Backend Systems & Applied Machine Learning',
+  subhead: 'Full-Stack Development & Backend Systems',
   positioning:
-    '18+ months building scalable backend systems — from a self-training fintech ML pipeline to production-hardened microservices.',
+    '18+ months building scalable backend systems — Integrated a self-training ML pipeline into production-hardened fintech application.',
   location: 'Hamilton, ON',
   email: 'p2004hitarth@gmail.com',
   phone: '+1 (365) 883-2904',
@@ -13,7 +13,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/hitarth-patel-a3a9b1250/',
   github: 'https://github.com/Hitarth-Patel-P',
   site: 'https://wiselysplit.xyz',
-  resumeFile: '/Hitarth-Patel-Resume.txt',
+  resumeFile: '/Hitarth-Patel-Resume.docx',
 } as const;
 
 export const summary =
