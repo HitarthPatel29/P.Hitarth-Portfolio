@@ -51,9 +51,6 @@ integration — the confidence percentages are cosmetic.
 All copy lives in `src/data/resumeData.ts` as typed objects, sourced from the resume. Update that
 one file to change anything on the page.
 
-Two values need confirming before publishing: `profile.linkedin` and `profile.github` are best
-guesses, since the resume lists those labels without URLs.
-
 The LinkedIn carousel reads `linkedinPosts` — one entry per post, holding the `urn:li:...` id from
 LinkedIn's own "Embed this post" snippet. Adding or reordering entries there is all that's needed;
 the carousel shows 3 cards on desktop, 2 on tablet, 1 on mobile and advances one card at a time.

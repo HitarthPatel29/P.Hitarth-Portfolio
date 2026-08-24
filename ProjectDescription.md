@@ -1,8 +1,5 @@
 # Build Prompt: Hitarth Patel — Portfolio Website
 ### Theme: "Fintech Ledger" (Navy & Gold) — WiselySplit Live Demo Edition
-> Paste everything below into Cursor with Opus. It's written as a direct instruction set — follow it section by section, in the suggested build order at the bottom.
-
----
 
 ## 1. Role & Brief
 

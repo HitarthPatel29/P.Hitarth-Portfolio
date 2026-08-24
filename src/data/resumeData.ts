@@ -1,5 +1,3 @@
-// NOTE: `linkedin` and `github` are best guesses — the resume lists the labels
-// without URLs. Replace with the real profile URLs before publishing.
 export const profile = {
   name: 'Hitarth Patel',
   eyebrow: 'Software Developer',
@@ -10,8 +8,8 @@ export const profile = {
   email: 'p2004hitarth@gmail.com',
   phone: '+1 (365) 883-2904',
   phoneHref: '+13658832904',
-  linkedin: 'https://www.linkedin.com/in/hitarth-patel-a3a9b1250/',
-  github: 'https://github.com/Hitarth-Patel-P',
+  linkedin: 'https://www.linkedin.com/in/hitarth-patel2904',
+  github: 'https://github.com/HitarthPatel29',
   site: 'https://wiselysplit.xyz',
   resumeFile: '/Hitarth-Patel-Resume.docx',
 } as const;
@@ -113,7 +111,7 @@ export const wiselySplit = {
     'SMILE',
   ],
   liveUrl: 'https://wiselysplit.xyz',
-  repoUrl: 'https://github.com/Hitarth-Patel-P',
+  repoUrl: 'https://github.com/HitarthPatel29',
   highlights: [
     {
       icon: 'Layers',
