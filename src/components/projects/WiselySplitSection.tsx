@@ -1,15 +1,13 @@
 import type { LucideIcon } from 'lucide-react';
 import {
-  BrainCircuit,
   Container,
   Database,
   ExternalLink,
-  Gauge,
   Github,
+  LayoutDashboard,
   Layers,
-  Radio,
+  Server,
   ShieldCheck,
-  Smartphone,
   Wallet,
 } from 'lucide-react';
 import { wiselySplit } from '../../data/resumeData';
@@ -18,14 +16,12 @@ import { Reveal, RevealItem, RevealList } from '../ui/Reveal';
 import { DemoShell } from './demo/DemoShell';
 
 const icons: Record<string, LucideIcon> = {
-  Layers,
-  BrainCircuit,
+  LayoutDashboard,
+  Server,
   Database,
   ShieldCheck,
-  Smartphone,
-  Gauge,
-  Radio,
   Container,
+  Layers,
 };
 
 export function WiselySplitSection() {
