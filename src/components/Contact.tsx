@@ -28,7 +28,7 @@ export function Contact() {
                 Let’s build something dependable.
               </h2>
               <p className="mt-2 max-w-md text-sm leading-relaxed text-muted">
-                Open to backend and full-stack roles. The fastest way to reach me is email — no
+                Open to Java backend and full-stack roles. The fastest way to reach me is email — no
                 ticket number required.
               </p>
             </div>

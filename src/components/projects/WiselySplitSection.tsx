@@ -1,6 +1,7 @@
 import type { LucideIcon } from 'lucide-react';
 import {
   BrainCircuit,
+  Container,
   Database,
   ExternalLink,
   Gauge,
@@ -24,6 +25,7 @@ const icons: Record<string, LucideIcon> = {
   Smartphone,
   Gauge,
   Radio,
+  Container,
 };
 
 export function WiselySplitSection() {

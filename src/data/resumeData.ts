@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Hitarth Patel',
-  eyebrow: 'Software Developer',
+  eyebrow: 'Java Developer',
   subhead: 'Backend Systems & Applied Machine Learning',
   positioning:
-    '18+ months building scalable backend systems — Integrated a self-training ML pipeline into production-hardened fintech application.',
+    '2+ years building scalable Java backends — currently modernizing investment management systems at Highclere Capital, and the engineer behind a production fintech platform with a self-training ML pipeline.',
   location: 'Hamilton, ON',
   email: 'p2004hitarth@gmail.com',
   phone: '+1 (365) 883-2904',
@@ -15,7 +15,7 @@ export const profile = {
 } as const;
 
 export const summary =
-  'Software Developer with 18+ months of hands-on experience building scalable backend systems across deployed applications, freelance product work, applied research, and a professional internship. Expert proficiency in Java 17, Spring Boot 3.5 and Hibernate/JPA with microservice as well as monolithic architecture. Skilled in writing clean, maintainable, well-documented code, with hands-on exposure to applied machine learning (Naive Bayes classification, self-training feedback loops). Comfortable in Agile/Scrum environments with remote, collaborative teams. Microsoft Azure Certified. Honors graduate with an 86.7% GPA.';
+  'Java Developer with 2+ years of hands-on experience building scalable backend systems across enterprise financial applications, a deployed fintech product, freelance systems analysis, applied research, and a professional internship. Expert proficiency in Java 17/21, Spring Boot, Spring MVC, Spring Data JPA and Hibernate across both microservice and monolithic architectures — with production experience in RESTful API design, Spring Security with OAuth 2.0 and JWT, event-driven messaging over Apache Kafka, and SQL optimization on PostgreSQL, Oracle, SQL Server and MySQL. Works comfortably across the full stack with React and TypeScript, and in cloud and DevOps workflows on Microsoft Azure, Docker, Jenkins and CI/CD. Writes clean, maintainable, well-documented code and tests it with JUnit, Mockito and TDD, with hands-on exposure to applied machine learning (Naive Bayes classification, self-training feedback loops). At home in Agile/Scrum environments with remote, collaborative teams. Microsoft Azure Certified. Honors graduate with an 86.7% GPA.';
 
 // `icon` maps to a lucide icon in Nav.tsx. `hint` is the plain-English meaning,
 // surfaced as a tooltip so the fintech naming never costs a recruiter a click.
@@ -33,7 +33,10 @@ export const navLinks = [
 export type SkillRow = { category: string; items: string[] };
 
 export const skills: SkillRow[] = [
-  { category: 'Core & Languages', items: ['Java', 'Python', 'JavaScript'] },
+  {
+    category: 'Core & Languages',
+    items: ['Java 17/21', 'Python', 'JavaScript', 'TypeScript', 'SQL'],
+  },
   {
     category: 'Java Ecosystem',
     items: [
@@ -42,6 +45,8 @@ export const skills: SkillRow[] = [
       'Hibernate ORM',
       'Spring MVC',
       'REST API Design',
+      'Spring Security',
+      'OAuth 2.0',
       'Resilience4j',
       'RestTemplate',
       'WebClient',
@@ -49,26 +54,53 @@ export const skills: SkillRow[] = [
       'Apache Kafka',
       'JWT',
       'BCrypt',
-      'Spring Security',
       'Spring Validation',
       'Spring JDBC',
     ],
   },
-  { category: 'Architecture', items: ['Monolithic', 'Microservice'] },
-  { category: 'Frontend', items: ['React.js', 'Tailwind CSS'] },
+  {
+    category: 'Architecture',
+    items: ['Monolithic', 'Microservice', 'Event-Driven', 'System Integration'],
+  },
+  { category: 'Frontend', items: ['React.js', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3'] },
   {
     category: 'ML / Data',
-    items: ['SMILE (Naive Bayes)', 'scikit-learn', 'scikit-image', 'Keras/TensorFlow', 'FaceNet'],
+    items: [
+      'SMILE (Naive Bayes)',
+      'scikit-learn',
+      'scikit-image',
+      'Keras/TensorFlow',
+      'PyTorch',
+      'Hugging Face Transformers',
+      'Pandas',
+      'NumPy',
+      'FaceNet',
+      'NLP',
+      'Computer Vision',
+    ],
   },
   {
-    category: 'Databases & DevOps',
-    items: ['MySQL', 'MongoDB', 'Microsoft Azure', 'Git', 'CI/CD (Jenkins)', 'Docker', 'Railway'],
+    category: 'Databases',
+    items: [
+      'MySQL',
+      'PostgreSQL',
+      'Oracle',
+      'Microsoft SQL Server',
+      'MongoDB',
+      'Redis',
+      'Schema & Index Design',
+      'Query Optimization',
+    ],
+  },
+  {
+    category: 'Cloud & DevOps',
+    items: ['Microsoft Azure', 'Docker', 'Git/GitHub', 'CI/CD (Jenkins)', 'Linux', 'Railway'],
   },
   {
     category: 'Methodologies',
-    items: ['Agile/Scrum', 'TDD', 'BDD', 'Code Review Practices'],
+    items: ['Agile/Scrum', 'TDD', 'BDD', 'Code Review Practices', 'Technical Documentation'],
   },
-  { category: 'Testing', items: ['JUnit', 'Mockito', 'Postman', 'Selenium'] },
+  { category: 'Testing', items: ['JUnit', 'Mockito', 'Postman', 'Swagger/OpenAPI', 'Selenium'] },
   {
     category: 'Soft Skills',
     items: [
@@ -91,7 +123,7 @@ export type Stat = {
 };
 
 export const stats: Stat[] = [
-  { value: 18, suffix: '+', label: 'Months experience' },
+  { value: 24, suffix: '+', label: 'Months experience' },
   { value: 70, suffix: '+', label: 'REST endpoints shipped' },
   { value: 100, suffix: '+', label: 'Bugs resolved' },
   { value: 86.7, suffix: '%', decimals: 1, label: 'GPA' },
@@ -111,7 +143,7 @@ export const wiselySplit = {
     'SMILE',
   ],
   liveUrl: 'https://wiselysplit.xyz',
-  repoUrl: 'https://github.com/HitarthPatel29',
+  repoUrl: 'https://github.com/HitarthPatel29/WiselySplit',
   highlights: [
     {
       icon: 'Layers',
@@ -141,6 +173,10 @@ export const wiselySplit = {
       icon: 'Radio',
       text: 'Introduced Apache Kafka for async, event-driven messaging between core services.',
     },
+    {
+      icon: 'Container',
+      text: 'Containerized the app with Docker and ran a Git-based CI/CD workflow, backed by JUnit/Mockito unit and integration tests plus Postman API validation.',
+    },
   ],
 } as const;
 
@@ -168,36 +204,58 @@ export type Role = {
 
 export const experience: Role[] = [
   {
+    role: 'Java Developer',
+    company: 'Highclere Capital',
+    location: 'Thornhill, ON',
+    period: 'Jan 2026 – Present',
+    bullets: [
+      'Modernizing an enterprise investment management platform — building backend services in Java 17/21 with Spring Boot, Spring MVC, Spring Data JPA and Hibernate behind portfolio operations, financial data processing, and reporting workflows.',
+      'Design and ship RESTful APIs and microservices covering portfolio data, investment operations, financial transactions and reporting, including integrations with internal and third-party systems.',
+      'Own business logic, data validation and exception handling end-to-end; secure endpoints with Spring Security, OAuth 2.0 and JWT under role-based access control.',
+      'Tune SQL queries, schemas, indexes and data-access components across PostgreSQL, Oracle and Microsoft SQL Server to keep reporting responsive and financial data consistent.',
+      'Moved downstream processing off the request path with Apache Kafka, using event-driven messaging for reliable communication between distributed services.',
+      'Build reusable front-end components in React, TypeScript, HTML5 and CSS3, wiring interfaces to the backend REST layer.',
+      'Work in Agile/Scrum delivery — code reviews, JUnit and Mockito coverage under a TDD workflow, and CI/CD pipelines supporting production releases.',
+    ],
+  },
+  {
     role: 'Software System Analyst (Freelance)',
     company: 'Contribiia',
     location: 'Toronto, ON (Remote)',
     period: 'Jan – Apr 2025',
     bullets: [
       'Bridged 2 business stakeholders and 2 UI/UX designers for a fintech ROSCA startup lacking structured requirements.',
-      'Translated product ideas into development-ready specs (features, edge cases, validation rules); led design reviews.',
-      'Delivered a complete UI/UX spec package, giving the startup a clear concept-to-prototype path.',
-    ],
-  },
-  {
-    role: 'Web Developer Intern',
-    company: 'Glacier Inc.',
-    location: 'Gujarat, India',
-    period: 'Jun – Dec 2022',
-    bullets: [
-      '6-month React.js internship building responsive, cross-device web pages.',
-      'Mentored on component structuring, performance, and coding standards.',
-      'Owned WordPress theme/plugin customization; resolved layout/compatibility issues.',
-      'Set up Selenium regression testing via Katalon Recorder; wrote/maintained unit tests.',
+      'Gathered and documented business and technical requirements, translating product ideas into functional specifications, user stories, edge cases and validation rules.',
+      'Mapped existing application architecture, workflows, integrations and data flows to surface system gaps and process inefficiencies worth fixing.',
+      'Specified REST API integrations, data exchanges, authentication requirements and error-handling paths across interconnected applications; validated them with Postman and Swagger/OpenAPI.',
+      'Ran SQL-based analysis against PostgreSQL and MySQL to investigate data discrepancies, map data elements and support database troubleshooting.',
+      'Led design reviews and delivered a complete UI/UX spec package, giving the startup a clear concept-to-prototype path.',
     ],
   },
   {
     role: 'Customer Service Associate & Baker',
     company: 'Tim Hortons',
     location: 'Hamilton, ON',
-    period: 'Jan 2023 – Present',
+    period: 'Jan 2023 – Aug 2024',
     bullets: [
-      'Collaborates within a 10+ person team maintaining service quality during peak hours.',
+      'Collaborated within a 10+ person team maintaining service quality during peak hours.',
       'Led and trained 7+ new employees in the kitchen.',
+      'Prepared and baked products to recipe, portioning and food-safety standards while keeping order accuracy high.',
+      'Ran POS and cash-handling systems across cash, debit and credit transactions with accurate payment records.',
+    ],
+  },
+  {
+    role: 'Web Developer Intern',
+    company: 'Glacier Inc.',
+    location: 'Gujarat, India',
+    period: 'Jan – Dec 2022',
+    bullets: [
+      '12-month React.js internship building responsive, cross-device web pages and reusable components in HTML5, CSS3, JavaScript and TypeScript.',
+      'Developed and consumed REST APIs for retrieving, submitting and processing application data over JSON.',
+      'Assisted on backend features with Node.js, Flask and FastAPI — business logic, validation and API endpoints.',
+      'Owned WordPress theme/plugin customization; resolved layout/compatibility issues.',
+      'Set up Selenium regression testing via Katalon Recorder; wrote/maintained unit tests.',
+      'Mentored on component structuring, performance, and coding standards; picked up Git workflows and ticket-based collaboration with designers and QA.',
     ],
   },
 ];
